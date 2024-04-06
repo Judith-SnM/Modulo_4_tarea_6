@@ -26,10 +26,9 @@ const mostrarPosts = async () => {
             const titulo = document.createElement('h3');
             titulo.textContent = post.title;
             const body = document.createElement('p');
-            body.textContent = post.body
+            body.textContent = post.body;
             li.appendChild(titulo);
             li.appendChild(body);
-
             ul.appendChild(li);
         });
         postsData.appendChild(ul);
